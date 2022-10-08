@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FakeCelebrityVoices</string>
+    <string name="failure_no_internet">Connection error</string>
+
+</resources>

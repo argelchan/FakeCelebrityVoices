@@ -34,10 +34,10 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:subtitleTextColor="@color/white"
-                    app:titleTextAppearance="@style/Toolbar.TitleText"
+                    app:titleTextAppearance="@style/MainToolbar.TitleText"
                     app:titleTextColor="@color/white"
-                    tools:subtitle="No. Orden:1042410"
-                    tools:title="Therese Gunnarsson">
+                    tools:subtitle=""
+                    tools:title="">
 
                 </androidx.appcompat.widget.Toolbar>
 
@@ -62,14 +62,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white"
-            app:itemBackground="@drawable/bottom_tab_background"
-            app:itemIconTint="@color/bottom_nav_color"
-            app:itemTextColor="@color/bottom_nav_color"
+            app:itemBackground="@android:color/transparent"
+            app:itemIconTint="@color/bottom_navigation_color"
+            app:itemTextColor="@color/bottom_navigation_color"
             app:labelVisibilityMode="unlabeled"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:menu="@menu/bottom_menu" />
+            app:menu="@menu/main_bottom_menu" />
 
         <FrameLayout
             android:id="@+id/flBottomView"
@@ -85,7 +85,7 @@
 
         <include
             android:id="@+id/progressView"
-            layout="@layout/loading_layout"
+            layout="@layout/loading_main_layout"
             android:visibility="gone" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

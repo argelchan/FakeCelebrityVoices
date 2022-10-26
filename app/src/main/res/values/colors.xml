@@ -2,12 +2,12 @@
 <resources>
     <color name="blue">#343574</color>
     <color name="blue_trs">#7C82D1</color>
-    <color name="blue_dark">#1E1F31</color>
+    <color name="blue_dark">#3F3258</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFF</color>
     <color name="transparent">#00000000</color>
 
     //BOTTOM MENU
-    <color name="bottom_navigation_color">#1B2335</color>
+    <color name="bottom_navigation_color">#191C2B</color>
 </resources>
